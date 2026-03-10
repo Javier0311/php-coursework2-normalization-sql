@@ -1,0 +1,33 @@
+INSERT INTO Departments (Deptcode, Deptlocation) VALUES
+('1A', 'Lemery'),
+('1C', 'Pointe-à-Pitre'),
+('3D', 'Sidokumpul'),
+('4B', 'Lilla Edet'),
+('5E', 'Santiago');
+
+INSERT INTO Employees (Empno, Name, Job, hiredate, salary, Deptcode) VALUES
+(1001, 'Benjamin Miguet', 'Programmer IV', '2019-10-25', 133608.91, '3D'),
+(1002, 'Biddy Coppock', 'Health Coach II', '2016-12-09', 135302.24, '1C'),
+(1003, 'Desmond Ogbourne', 'Senior Cost Accountant', '2020-03-24', 55991.73, '4B'),
+(1004, 'Marita Dubery', 'Executive Secretary', '2019-03-13', 53720.04, '1A'),
+(1005, 'Meg Holleran', 'Executive Secretary', '2014-10-20', 73794.50, '1C'),
+(1006, 'Carlos Santana', 'Database Admin', '2018-05-12', 95000.00, '3D'),
+(1007, 'Ana Gomez', 'HR Manager', '2017-11-03', 82000.50, '1A'),
+(1008, 'Luis Perez', 'Sales Associate', '2021-02-15', 45000.00, '5E'),
+(1009, 'Maria Rodriguez', 'Marketing Specialist', '2020-08-22', 60000.75, '4B'),
+(1010, 'John Smith', 'Programmer I', '2022-01-10', 70000.00, '3D'),
+(1011, 'Jane Doe', 'Health Coach I', '2019-06-30', 55000.25, '1C'),
+(1012, 'Robert Brown', 'Cost Accountant', '2016-04-18', 68000.00, '4B'),
+(1013, 'Emily White', 'Executive Secretary', '2015-09-05', 52000.00, '1A'),
+(1014, 'Michael Green', 'Sales Manager', '2018-12-01', 110000.00, '5E'),
+(1015, 'Sarah Johnson', 'Programmer II', '2020-03-15', 85000.50, '3D'),
+(1016, 'David Lee', 'UX Designer', '2021-07-20', 92000.00, '3D'),
+(1017, 'Laura Martinez', 'Recruiter', '2019-10-10', 65000.00, '1A'),
+(1018, 'James Taylor', 'Financial Analyst', '2017-02-28', 78000.25, '4B'),
+(1019, 'Linda Wilson', 'Health Coach II', '2016-08-14', 72000.00, '1C'),
+(1020, 'William Davis', 'Support Engineer', '2022-05-05', 62000.50, '3D'),
+(1021, 'Elizabeth Garcia', 'Sales Associate', '2023-01-12', 46000.00, '5E'),
+(1022, 'Richard Clark', 'Marketing Manager', '2015-11-20', 98000.00, '4B'),
+(1023, 'Susan Lewis', 'Office Manager', '2018-04-02', 58000.75, '1A'),
+(1024, 'Joseph Walker', 'Programmer III', '2019-01-25', 105000.00, '3D'),
+(1025, 'Margaret Hall', 'Clinic Director', '2014-06-15', 125000.00, '1C');
